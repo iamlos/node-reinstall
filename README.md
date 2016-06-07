@@ -12,13 +12,16 @@ Complete Node Reinstall for OSX and Linux. See the [SO article](http://stackover
 
 Clone this repo somewhere. If you have SSH setup with GitHub, use this format:
 ```
-git clone git@github.com:brock/node-reinstall.git
+git clone git@github.com:iamlos/node-reinstall.git
 ```
 
 Otherwise, clone this repo using HTTPS:
 ```
-git clone https://github.com/brock/node-reinstall.git
+git clone https://github.com/iamlos/node-reinstall.git
 ```
+### Edit Made: I have adjusted the script a bit to suit my needs. line 164 is commented out b/c I have another binary with a node* prefix. Use caution when using `rm -rf` in your $HOME directory
+
+### This respository stays even with the master
 
 ### Run the Re-Installer
 Change into the directory:
